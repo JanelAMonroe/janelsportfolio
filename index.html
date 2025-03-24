@@ -314,7 +314,13 @@
             <span class="highlight">spectacular!</span>
           </h2>
           <div class="form">
-            <form name="contact" netlify class="contact-form" id="contactForm">
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              class="contact-form"
+              id="contactForm"
+            >
               <input type="text" name="name" placeholder="Name" required />
               <input type="email" name="email" placeholder="Email" required />
               <textarea
