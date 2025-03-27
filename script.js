@@ -30,34 +30,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Handle contact form submission
-  contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    sendButton.classList.add('sent');
+  // Reset form and button after 2 seconds
+  setTimeout(() => {
+    contactForm.reset();
+    sendButton.classList.remove('sent');
+  }, 2000);
+});
 
-    // Reset form and button after 2 seconds
-    setTimeout(() => {
-      contactForm.reset();
-      sendButton.classList.remove('sent');
-    }, 2000);
-  });
+// Modal functionality
+aboutButton.addEventListener('click', () => {
+  aboutModal.classList.add('show');
+  document.body.style.overflow = 'hidden';
+});
 
-  // Modal functionality
-  aboutButton.addEventListener('click', () => {
-    aboutModal.classList.add('show');
-    document.body.style.overflow = 'hidden';
-  });
+closeButton.addEventListener('click', () => {
+  aboutModal.classList.remove('show');
+  document.body.style.overflow = '';
+});
 
-  closeButton.addEventListener('click', () => {
+// Close modal when clicking outside
+aboutModal.addEventListener('click', (e) => {
+  if (e.target === aboutModal) {
     aboutModal.classList.remove('show');
     document.body.style.overflow = '';
-  });
-
-  // Close modal when clicking outside
-  aboutModal.addEventListener('click', (e) => {
-    if (e.target === aboutModal) {
-      aboutModal.classList.remove('show');
-      document.body.style.overflow = '';
-    }
-  });
+  }
 });
