@@ -307,7 +307,6 @@ i {
 .profile-image img {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
 }
 
 .profile-info h3 {
@@ -694,5 +693,24 @@ i {
 
   .highlight {
     font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 430px) {
+  /* Body */
+  h1,
+  h2,
+  .cursive-text {
+    font-size: 1.5rem;
+  }
+
+  /* Navigation */
+  .nav-links {
+    gap: 0.5rem;
+  }
+
+  /* About */
+  .about-text {
+    font-size: 0.5rem;
   }
 }
