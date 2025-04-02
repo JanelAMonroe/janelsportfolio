@@ -701,12 +701,12 @@ i {
   h1,
   h2,
   .cursive-text {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   /* Navigation */
   .nav-links {
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .about-title {
@@ -714,6 +714,6 @@ i {
   }
 
   .text-lrg {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 }
