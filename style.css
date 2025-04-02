@@ -706,7 +706,7 @@ i {
 
   /* Navigation */
   .nav-links {
-    gap: 1.5rem;
+    gap: 1.1rem;
   }
 
   .about-title {
@@ -714,6 +714,6 @@ i {
   }
 
   .text-lrg {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
