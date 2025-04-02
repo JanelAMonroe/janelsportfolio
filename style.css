@@ -708,4 +708,12 @@ i {
   .nav-links {
     gap: 0.5rem;
   }
+
+  .about-title {
+    margin-top: 3rem;
+  }
+
+  .text-lrg {
+    font-size: 1.5rem;
+  }
 }
