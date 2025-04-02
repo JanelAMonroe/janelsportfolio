@@ -701,7 +701,7 @@ i {
   h1,
   h2,
   .cursive-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   /* Navigation */
@@ -710,10 +710,10 @@ i {
   }
 
   .about-title {
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 
   .text-lrg {
-    font-size: 0.4rem;
+    font-size: 0.48rem;
   }
 }
