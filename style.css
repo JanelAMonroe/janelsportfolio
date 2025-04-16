@@ -89,6 +89,20 @@ nav a:hover {
   color: var(--primary-color);
 }
 
+nav i {
+  margin-top: -1px;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 15%;
+  padding: 3px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+nav i:hover {
+  color: rgba(234, 99, 140, 0.8);
+}
+
 /* Main content styles */
 main {
   position: relative;
